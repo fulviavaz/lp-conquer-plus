@@ -48,7 +48,10 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			'text-a': 'var(--text-a)', // cor personalizada
+        'yellow-main': 'var(--yellow-main)', // cor personalizada
+        'white-main': 'var(--white-main)', // cor personalizada
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
