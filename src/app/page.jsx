@@ -27,7 +27,7 @@ export default function Home() {
       </div> 
               
       <div className="2xl:px-20 px-10 w-full  mt-14 flex flex-wrap items-center justify-center 2xl:gap-32">     
-        <div className="flex items-center justify-center"><Image src="/cell.png" alt="telefone" width={415} height={488}/></div>
+        <div className="flex items-center justify-center"><Image src="/cellpho.png" alt="telefone" width={415} height={488}/></div>
         <div className="flex items-center justify-center 2xl:w-[261px] xl:w-[261px] w-auto">
           <p className="text-text-a text-[29px]  leading-7 font-normal text-start">Atualize o seu aprendizado e esteja por dentro do que está em alta.</p>
         </div>     
