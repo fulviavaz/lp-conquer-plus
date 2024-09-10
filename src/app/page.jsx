@@ -61,7 +61,7 @@ export default function Home() {
       A rotina está agitada? Não se preocupe. Aqui você acompanha as aulas de onde, quando e quantas vezes quiser.
     </li>
     <li className="text-black 2xl:text-lg font-bold leading-6">
-      Conquiste certificados de peso e coloque a sua carreira em destaque
+      Conquiste certificados de peso e coloque a sua carreira em destaque
             </li>
             
   </ul>
