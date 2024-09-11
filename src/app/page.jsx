@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full gap-6">
         <h2 className="text-2xl text-text-a font-bold">Garanta seu desconto</h2>
-        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12"><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank"> Ir para a Conquer </Link></Button>
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12"><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank"> Ir para a Conquer </Link></Button>
         <p className="text-text-a text-3xl font-bold">São mais de 80 habilidades
         disponíveis! Descubra o poder das
         soft e hard skills na sua carreira.</p>
@@ -37,7 +37,7 @@ export default function Home() {
 
       <div className="2xl:px-20 px-10 w-full  2xl:mt-14 mt-10 flex flex-col items-start justify-center ">
         
-        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12 mt-8 "><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank">Comece agora </Link></Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank">Comece agora </Link></Button>        
       </div>
 
       <div className="2xl:px-20 px-10 w-full mb-14 mt-14 flex flex-wrap items-center justify-center gap-14">
@@ -70,7 +70,7 @@ export default function Home() {
       </div>
       <div className="2xl:px-20 px-10 w-full  mb-14 flex flex-col items-start justify-center ">
       
-        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12 mt-8 "><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank">Comece agora </Link></Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank">Comece agora </Link></Button>        
       </div>
 
       <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
