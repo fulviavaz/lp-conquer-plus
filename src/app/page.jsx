@@ -1,13 +1,14 @@
 
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
       <nav className="flex items-center justify-between w-full bg-black py-4 2xl:px-20 px-10">
         <Image src="/itau.png" alt="logo itau" width={44} height={44} />
-        <Image src="/conquer.png" alt="logo conquer" width={136} height={42}/>
+        <Image src="/conquer-plus.png" alt="logo conquer" width={136} height={42}/>
       </nav>
     <div className="flex flex-col items-center justify-center w-full">
         <div className=" bg-[url('/hero-plus.png')] bg-cover bg-center 2xl:w-[830px] 2xl:h-[394px] xl:w-[830px] xl:h-[394px] w-[328px] h-[413px] relative items-center mt-10 mb-10 bg-black rounded-3xl">  
@@ -20,7 +21,7 @@ export default function Home() {
 
       <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full gap-6">
         <h2 className="text-2xl text-text-a font-bold">Garanta seu desconto</h2>
-        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12">Ir para a Conquer</Button>
+        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12"><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank"> Ir para a Conquer </Link></Button>
         <p className="text-text-a text-3xl font-bold">São mais de 80 habilidades
         disponíveis! Descubra o poder das
         soft e hard skills na sua carreira.</p>
@@ -36,7 +37,7 @@ export default function Home() {
 
       <div className="2xl:px-20 px-10 w-full  2xl:mt-14 mt-10 flex flex-col items-start justify-center ">
         
-        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12 mt-8 ">Comece agora</Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12 mt-8 "><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank">Comece agora </Link></Button>        
       </div>
 
       <div className="2xl:px-20 px-10 w-full mb-14 mt-14 flex flex-wrap items-center justify-center gap-14">
@@ -69,7 +70,7 @@ export default function Home() {
       </div>
       <div className="2xl:px-20 px-10 w-full  mb-14 flex flex-col items-start justify-center ">
       
-        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12 mt-8 ">Comece agora</Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12 mt-8 "><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank">Comece agora </Link></Button>        
       </div>
 
       <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
