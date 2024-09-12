@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -21,7 +22,9 @@ export default function Home() {
 
       <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full gap-6">
         <h2 className="text-2xl text-text-a font-bold">Garanta seu desconto</h2>
-        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12"><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank"> Ir para a Conquer </Link></Button>
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12"><Link href="https://pagamento.escolaconquer.com.br/CW-14082024122024304CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU
+
+" target="_blank"> Ir para a Conquer </Link></Button>
         <p className="text-text-a text-3xl font-bold">São mais de 80 habilidades
         disponíveis! Descubra o poder das
         soft e hard skills na sua carreira.</p>
@@ -37,7 +40,9 @@ export default function Home() {
 
       <div className="2xl:px-20 px-10 w-full  2xl:mt-14 mt-10 flex flex-col items-start justify-center ">
         
-        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank">Comece agora </Link></Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://pagamento.escolaconquer.com.br/CW-14082024122024304CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU
+
+" target="_blank">Comece agora </Link></Button>        
       </div>
 
       <div className="2xl:px-20 px-10 w-full mb-14 mt-14 flex flex-wrap items-center justify-center gap-14">
@@ -68,9 +73,57 @@ export default function Home() {
   </ul>
         </div>
       </div>
+
+      <div className="flex flex-wrap items-center justify-center gap-14">
+        <Card className="w-[370px] h-[200px]">
+          <CardContent className="p-10">
+            <ul className="list-disc list-inside">
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Comunicação e Oratória
+              </li>
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Inteligência Emocional
+              </li>
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Produtividade e Gestão de Tempo
+              </li>
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Análise de Dados e Power BI
+              </li>
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Excel do Básico ao Avançado
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+
+          <Card className="w-[370px] h-[200px]">
+          <CardContent className="p-10">
+            <ul className="list-disc list-inside">
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Negociação e Influência
+              </li>
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Liderança
+              </li>
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Gestão Financeira
+              </li>
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Programação Neurolinguística
+              </li>
+              <li className="text-black 2xl:text-lg font-bold leading-6">
+                Gestão e Metodologias Ágeis
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+      </div>
       <div className="2xl:px-20 px-10 w-full  mb-14 flex flex-col items-start justify-center ">
       
-        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://conquer.plus/?sellerId=86ac0140-f737-48ce-852a-199e40b80098&utm_source=parcerias&utm_medium=incompany&utm_campaign=ITAU" target="_blank">Comece agora </Link></Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://pagamento.escolaconquer.com.br/CW-14082024122024304CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU
+
+" target="_blank">Comece agora </Link></Button>        
       </div>
 
       <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
