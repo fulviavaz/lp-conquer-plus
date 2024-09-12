@@ -11,7 +11,7 @@ export default function Home() {
         <Image src="/itauuniclass/minhasvantagens/conquerplus/images/conquer-plus.png" alt="logo conquer" width={136} height={42}/>
       </nav>
     <div className="flex flex-col items-center justify-center w-full">
-        <div className=" bg-[url('/hero-plus.png')] bg-cover bg-center 2xl:w-[830px] 2xl:h-[394px] xl:w-[830px] xl:h-[394px] w-[328px] h-[413px] relative items-center mt-10 mb-10 bg-black rounded-3xl">  
+        <div className=" bg-[url('/itauuniclass/minhasvantagens/conquerplus/images/hero-plus.png')] bg-cover bg-center 2xl:w-[830px] 2xl:h-[394px] xl:w-[830px] xl:h-[394px] w-[328px] h-[413px] relative items-center mt-10 mb-10 bg-black rounded-3xl">  
           <div className="absolute bottom-5 left-5">
             <h1 className="text-3xl text-white font-bold">Conquer Plus</h1>
             <h3 className="text-lg text-white font-bold">Aproveite os descontos!</h3>
