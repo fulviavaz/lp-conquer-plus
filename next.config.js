@@ -1,3 +1,3 @@
 module.exports = {
-  basePath: '/itauuniclass/minhasvantagens/conquerplus/',
+  basePath: '/itauuniclass/minhasvantagens/conquerplus',
 }
