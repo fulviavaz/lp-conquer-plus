@@ -122,9 +122,7 @@ export default function Home() {
       </div>
       <div className="2xl:px-20 px-10 w-full  mb-14 flex flex-col items-start justify-center ">
       
-        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://pagamento.escolaconquer.com.br/CW-14082024122024304CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU
-
-" target="_blank">Comece agora </Link></Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://pagamento.escolaconquer.com.br/CW-30102024105512907CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">Comece agora </Link></Button>        
       </div>
 
       <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
