@@ -41,7 +41,11 @@ export default function Home() {
 
       <div className="2xl:px-20 px-10 w-full  2xl:mt-14 mt-10 flex flex-col items-start justify-center ">
         
-        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://pagamento.escolaconquer.com.br/CW-30102024105512907CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">Comece agora </Link></Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 ">
+          <Link href="https://cnqr.com.br/r/itau" target="_blank">Comece agora </Link></Button>  
+          <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom ITAÚ para garantir o desconto e seguir com o pagamento.
+
+Seu cupom é <strong>ITAÚ</strong> </p>
       </div>
 
       <div className="2xl:px-20 px-10 w-full mb-14 mt-14 flex flex-wrap items-center justify-center gap-14">
@@ -74,7 +78,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-wrap items-center justify-center gap-14">
-        <Card className="w-[370px] h-[200px]">
+        <Card className="w-[370px] h-[250px]">
           <CardContent className="p-10">
             <ul className="list-disc list-inside">
               <li className="text-black 2xl:text-lg font-bold leading-6">
@@ -96,7 +100,7 @@ export default function Home() {
           </CardContent>
         </Card>
 
-          <Card className="w-[370px] h-[200px]">
+          <Card className="w-[370px] h-[250px]">
           <CardContent className="p-10">
             <ul className="list-disc list-inside">
               <li className="text-black 2xl:text-lg font-bold leading-6">
@@ -121,7 +125,10 @@ export default function Home() {
       <div className="2xl:px-20 px-10 w-full  mb-14 flex flex-col items-start justify-center ">
       
         <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 ">
-          <Link href="https://pagamento.escolaconquer.com.br/CW-30102024105512907CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">Comece agora </Link></Button>        
+          <Link href="https://cnqr.com.br/r/itau" target="_blank">Comece agora </Link></Button>  
+          <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom ITAÚ para garantir o desconto e seguir com o pagamento.
+
+Seu cupom é <strong>ITAÚ</strong> </p>       
       </div>
 
       <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
