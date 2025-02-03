@@ -6,12 +6,13 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between">
+    <>
       <nav className="flex items-center justify-between w-full bg-black py-4 2xl:px-20 px-10">
         <Image src="/itauuniclass/minhasvantagens/conquerplus/images/itau.png" alt="logo itau" width={44} height={44} />
         <Image src="/itauuniclass/minhasvantagens/conquerplus/images/conquer-plus.png" alt="logo conquer" width={136} height={42}/>
       </nav>
-      {/* hero */}
+
+        {/* hero */}
       
         <div className="flex flex-wrap-reverse gap-10 items-center justify-between w-full bg-[#0131FF] py-24 2xl:px-30 xl:px-40 lg:px-30 px-10">
         <div className="2xl:w-[500px] xl:w-[500px] lg:w-[500px] flex flex-col">
@@ -24,6 +25,9 @@ export default function Home() {
         </div>
         </div>
 
+
+    <main className="flex flex-col items-center justify-between max-w-[1280px] mx-auto">      
+    
       <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full gap-6 py-16">
       
         <p className="text-text-a text-3xl font-bold">São mais de 80 habilidades
@@ -129,14 +133,14 @@ Seu cupom é <strong>ITAÚ</strong> </p>
           <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom ITAÚ para garantir o desconto e seguir com o pagamento.
 
 Seu cupom é <strong>ITAÚ</strong> </p>       
-      </div>
-
-      <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
+      </div>   
+    
+      </main>
+        <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
         <p className="text-white text-sm ">Powered by</p>
         <Image src="/itauuniclass/minhasvantagens/conquerplus/images/indico.png" alt="logo itau" width={81} height={25} />
         <p className="text-white text-[8px] 2xl:text-xs ">CAOS SISTEMAS DINÂMICOS E COMPLEXOS LTDA - Brasil - CNPJ 05.934.733/0001-17</p>
       </footer>
-    
-    </main>
+      </>
   );
 }
