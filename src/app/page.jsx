@@ -44,9 +44,9 @@ export default function Home() {
       </div>
 
       <div className="2xl:px-20 px-10 w-full  2xl:mt-14 mt-10 flex flex-col items-start justify-center ">
-        
+        <Link href="https://cnqr.com.br/r/itau" target="_blank">
         <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 ">
-          <Link href="https://cnqr.com.br/r/itau" target="_blank">Comece agora </Link></Button>  
+          Comece agora </Button>  </Link>
           <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom <strong>ITAÚ</strong> para garantir o desconto e seguir com o pagamento.</p>
       </div>
 
@@ -125,12 +125,11 @@ export default function Home() {
         </Card>
       </div>
       <div className="2xl:px-20 px-10 w-full  mb-14 flex flex-col items-start justify-center ">
-      
+      <Link href="https://cnqr.com.br/r/itau" target="_blank">
         <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 ">
-          <Link href="https://cnqr.com.br/r/itau" target="_blank">Comece agora </Link></Button>  
+          Comece agora </Button>  </Link>
           <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom <strong>ITAÚ</strong> para garantir o desconto e seguir com o pagamento.</p>       
-      </div>   
-    
+      </div>      
       </main>
         <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
         <p className="text-white text-sm ">Powered by</p>
